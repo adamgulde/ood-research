@@ -1,0 +1,9 @@
+data/
+models/
+results/
+figures/
+archive/
+tmp/
+*.ipynb_checkpoints
+.idea
+__pycache__

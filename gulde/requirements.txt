@@ -1,0 +1,20 @@
+# python==3.12
+# conda install pytorch torchvision -c pytorch
+torch
+torchvision
+tqdm
+torchmetrics
+## Numpy, scipy, scikit-image, spectral
+numpy 
+scikit-learn
+# imbalanced-learn
+# scikit-image
+# spectral
+## Visualization
+matplotlib==3.7.3
+seaborn
+# conda-forge::visdom
+## utils
+# tqdm
+pip
+# - /opt/homebrew/Caskroom/miniconda/base/envs/hs_dl/bin/pip install torchsummary
