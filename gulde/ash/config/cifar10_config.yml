@@ -2,7 +2,7 @@ config:
     # in distribution dataset
     id_dataset: "cifar10"
     # out-of-distribution datasets
-    ood_datasets: ["svhn", "lsuncrop", "lsunresize", "isun", "textures", "places365"]
+    ood_datasets: ["lsuncrop", "lsunresize", "isun", "textures"]
     # model
     model_name: "densenet100"
     # path to checkpoint from which to be restored
@@ -12,4 +12,4 @@ config:
     # scoring method
     scoring_method: "energy"
     # method
-    method: "ash_s@95"
+    method: "ash_s@50"
